@@ -54,3 +54,11 @@ class ProjectHelper:
     # def count(self):
     #     wd = self.app.wd
     #     wd
+
+    def get_project_list(self):
+        wd = self.app.wd
+        self.open_project_page()
+        list_project = []
+        for element in wd.find_elements_by_xpath("//a[contains(@href,'manage_proj_edit_page.php?project_id')]"):
+            list_project.append(element)
+        return list_project
