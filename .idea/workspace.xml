@@ -13,20 +13,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.pytest_cache/test_add_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application.py">
+        <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="408">
+              <caret line="48" column="98" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="48" selection-end-column="98" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -50,6 +62,8 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test_add_project.py" />
         <option value="$PROJECT_DIR$/application.py" />
+        <option value="$PROJECT_DIR$/fixture/session.py" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/.pytest_cache/test_add_project.py" />
       </list>
     </option>
@@ -77,6 +91,11 @@
               <item name="mantest" type="462c0819:PsiDirectoryNode" />
               <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mantest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mantest" type="462c0819:PsiDirectoryNode" />
+              <item name="fixture" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -89,6 +108,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ga.savin\PyProject\mantest\fixture" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ga.savin\PyProject\mantest\.pytest_cache" />
     </key>
@@ -105,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_project.py">
+  <component name="RunManager" selected="Python tests.pytest for test_add_project.test_add_and_del_project">
     <configuration name="test_add_project" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mantis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,9 +224,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_add_project.test_add_and_del_project" />
         <item itemvalue="Python tests.pytest in test_add_project.py" />
         <item itemvalue="Python tests.pytest for test_add_project.test_add_project" />
-        <item itemvalue="Python tests.pytest for test_add_project.test_add_and_del_project" />
         <item itemvalue="Python.test_add_project" />
         <item itemvalue="Python tests.Unittests in mantest" />
       </list>
@@ -224,21 +246,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_test_add_group_test_add_group - 2019.04.03 at 10h 26m 32s.xml">
-      <configuration name="Unittests for test.test_add_group.test_add_group" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_test_add_group_test_add_project - 2019.04.03 at 10h 52m 21s.xml">
-      <configuration name="Unittests for test.test_add_group.test_add_project" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_test_add_group_test_add_project - 2019.04.03 at 11h 01m 54s.xml">
-      <configuration name="Unittests for test.test_add_group.test_add_project" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_test_add_group - 2019.04.03 at 11h 02m 51s.xml">
-      <configuration name="Unittests for test.test_add_group" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_test_add_group_test_add_project - 2019.04.03 at 11h 08m 55s.xml">
-      <configuration name="Unittests for test.test_add_group.test_add_project" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_add_project_test_add_project_test_add_project - 2019.04.03 at 11h 15m 37s.xml">
       <configuration name="Unittests for test_add_project.test_add_project.test_add_project" configurationId="tests" />
     </history-entry>
@@ -252,6 +259,21 @@
       <configuration name="pytest in test_add_project.py" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_test_add_project_py - 2019.04.03 at 12h 24m 18s.xml">
+      <configuration name="pytest in test_add_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_project_test_add_and_del_project - 2019.04.03 at 12h 26m 37s.xml">
+      <configuration name="pytest for test_add_project.test_add_and_del_project" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_project_test_add_project - 2019.04.03 at 12h 27m 23s.xml">
+      <configuration name="pytest for test_add_project.test_add_project" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_project_py - 2019.04.03 at 12h 27m 47s.xml">
+      <configuration name="pytest in test_add_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_project_py - 2019.04.03 at 12h 29m 32s.xml">
+      <configuration name="pytest in test_add_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_project_py - 2019.04.03 at 12h 34m 38s.xml">
       <configuration name="pytest in test_add_project.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -300,16 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_add_project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -320,10 +332,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="48" column="98" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="48" selection-end-column="98" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.pytest_cache/test_add_project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
