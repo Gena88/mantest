@@ -140,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_project.test_add_and_del_project">
+  <component name="RunManager" selected="Python tests.pytest in test_add_project.py">
     <configuration name="test_add_project" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mantis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,8 +237,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_add_project.test_add_and_del_project" />
         <item itemvalue="Python tests.pytest in test_add_project.py" />
+        <item itemvalue="Python tests.pytest for test_add_project.test_add_and_del_project" />
         <item itemvalue="Python tests.pytest for test_add_project.test_add_project" />
         <item itemvalue="Python.test_add_project" />
         <item itemvalue="Python tests.Unittests in mantest" />
