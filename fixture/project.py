@@ -50,3 +50,7 @@ class ProjectHelper:
         wd = self.app.wd
         wd.find_element_by_css_selector(".nav-list > li:nth-child(7) > a:nth-child(1) > span:nth-child(2)").click()
         wd.find_element_by_css_selector(".nav-tabs > li:nth-child(3) > a:nth-child(1)").click()
+
+    # def count(self):
+    #     wd = self.app.wd
+    #     wd
