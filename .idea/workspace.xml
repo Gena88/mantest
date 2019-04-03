@@ -14,7 +14,7 @@
         <entry file="file://$PROJECT_DIR$/.pytest_cache/test_add_project.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="98" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="48" selection-end-column="98" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -35,10 +35,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -64,6 +76,7 @@
         <option value="$PROJECT_DIR$/application.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/fixture/project.py" />
         <option value="$PROJECT_DIR$/.pytest_cache/test_add_project.py" />
       </list>
     </option>
@@ -246,9 +259,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_add_project_test_add_project_test_add_project - 2019.04.03 at 11h 15m 37s.xml">
-      <configuration name="Unittests for test_add_project.test_add_project.test_add_project" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_add_project_test_add_project_test_add_project - 2019.04.03 at 11h 21m 49s.xml">
       <configuration name="Unittests for test_add_project.test_add_project.test_add_project" configurationId="tests" />
     </history-entry>
@@ -275,6 +285,9 @@
     </history-entry>
     <history-entry file="pytest_in_test_add_project_py - 2019.04.03 at 12h 34m 38s.xml">
       <configuration name="pytest in test_add_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_add_project_test_add_and_del_project - 2019.04.03 at 12h 35m 25s.xml">
+      <configuration name="pytest for test_add_project.test_add_and_del_project" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -334,15 +347,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="98" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="48" selection-end-column="98" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
@@ -352,7 +375,7 @@
     <entry file="file://$PROJECT_DIR$/.pytest_cache/test_add_project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
