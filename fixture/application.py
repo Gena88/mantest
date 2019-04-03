@@ -1,8 +1,6 @@
 from selenium.webdriver.firefox.webdriver import WebDriver
-from fixture.session import SessionHelper
 from fixture.project import ProjectHelper
-import random
-import string
+from fixture.session import SessionHelper
 
 
 class Application:
@@ -12,6 +10,13 @@ class Application:
         self.wd.implicitly_wait(8)
         self.session = SessionHelper(self)
         self.project = ProjectHelper(self)
+
+    def is_vallid(self):
+        try:
+            self.wd.current_url
+            return True
+        except:
+            return False
 
     def open_home_page(self):
         wd = self.wd
