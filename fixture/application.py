@@ -20,7 +20,7 @@ class Application:
 
     def open_home_page(self):
         wd = self.wd
-        wd.get("http://localhost/mantisbt-2.20.0/login_page.php")
+        wd.get("http://localhost/mantisbt-2.20.0/mantisbt-2.20.0/login_page.php")
 
     def destroy(self):
         self.wd.quit()
